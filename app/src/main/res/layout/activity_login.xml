@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/fondo_login"
+        android:layout_width="460dp"
+        android:layout_height="789dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/Background" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0397D9"
+        android:text="Continuar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_login" />
+
+    <TextView
+        android:id="@+id/texto2_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Correo electronico:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_login"
+        app:layout_constraintTop_toBottomOf="@+id/texto1_login" />
+
+    <EditText
+        android:id="@+id/campo3_registrar2"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Campo correo electronico"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_login"
+        app:layout_constraintTop_toBottomOf="@+id/texto2_login" />
+
+    <TextView
+        android:id="@+id/texto5_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Contraseña:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_login"
+        app:layout_constraintTop_toBottomOf="@+id/campo3_registrar2" />
+
+    <EditText
+        android:id="@+id/campo4_registrar2"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_login"
+        app:layout_constraintTop_toBottomOf="@+id/texto5_registrar2" />
+
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="147dp"
+        android:layout_height="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/LogoKairen" />
+
+    <ImageView
+        android:id="@+id/flecha_login"
+        android:layout_width="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Flecha" />
+
+    <TextView
+        android:id="@+id/texto1_login"
+        android:layout_width="397dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="¡Bienvenido de vuelta!"
+        android:textAlignment="center"
+        android:textColor="#0198DB"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_login" />
+
+    <CheckBox
+        android:id="@+id/checkbox_login"
+        android:layout_width="292dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Mantener mi sesión iniciada"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campo4_registrar2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
