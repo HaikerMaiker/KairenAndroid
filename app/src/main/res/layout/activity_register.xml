@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/fondo_registrar"
+        android:layout_width="460dp"
+        android:layout_height="789dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/Background" />
+
+    <ImageView
+        android:id="@+id/flecha_registrar"
+        android:layout_width="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Flecha" />
+
+    <ImageView
+        android:id="@+id/logo_registrar"
+        android:layout_width="147dp"
+        android:layout_height="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/LogoKairen" />
+
+    <TextView
+        android:id="@+id/texto1_registrar"
+        android:layout_width="397dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="¡Ayudanos a ayudar a tus mascotas!"
+        android:textAlignment="center"
+        android:textColor="#0198DB"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_registrar" />
+
+    <TextView
+        android:id="@+id/texto2_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nombre(s):"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto1_registrar" />
+
+    <TextView
+        android:id="@+id/texto6_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Confirmar contraseña:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/campo4_registrar" />
+
+    <TextView
+        android:id="@+id/texto5_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contraseña:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/campo3_registrar" />
+
+    <TextView
+        android:id="@+id/texto4_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Correo electronico:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/campo2_registrar" />
+
+    <TextView
+        android:id="@+id/texto3_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Apellido(s):"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/campo1_registrar" />
+
+    <EditText
+        android:id="@+id/campo1_registrar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Campo texto"
+        android:inputType="textPersonName"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto2_registrar" />
+
+    <EditText
+        android:id="@+id/campo2_registrar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Campo apellidos"
+        android:inputType="textPersonName"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto3_registrar" />
+
+    <EditText
+        android:id="@+id/campo4_registrar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto5_registrar" />
+
+    <EditText
+        android:id="@+id/campo5_registrar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto6_registrar" />
+
+    <EditText
+        android:id="@+id/campo3_registrar"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Campo correo electronico"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar"
+        app:layout_constraintTop_toBottomOf="@+id/texto4_registrar" />
+
+    <Button
+        android:id="@+id/button_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0397D9"
+        android:text="Continuar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campo5_registrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
