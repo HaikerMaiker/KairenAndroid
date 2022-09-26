@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro2Activity">
+
+    <ImageView
+        android:id="@+id/fondo_registrar2"
+        android:layout_width="460dp"
+        android:layout_height="789dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/Background" />
+
+    <TextView
+        android:id="@+id/texto2_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Numero de telefono:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/flecha_registrar2"
+        app:layout_constraintTop_toBottomOf="@id/texto1_registrar2" />
+
+    <EditText
+        android:id="@+id/campo1_registrar2"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Campo telefono"
+        android:inputType="textPersonName|phone"
+        android:textColorHint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@id/flecha_registrar2"
+        app:layout_constraintTop_toBottomOf="@id/texto2_registrar2" />
+
+    <ImageView
+        android:id="@+id/flecha_registrar2"
+        android:layout_width="42dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Flecha" />
+
+    <ImageView
+        android:id="@+id/logo_registrar2"
+        android:layout_width="147dp"
+        android:layout_height="139dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/LogoKairen" />
+
+    <TextView
+        android:id="@+id/texto1_registrar2"
+        android:layout_width="404dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:text="¡Estas a un paso mas de unirte a la mejor comunidad de rescate!"
+        android:textAlignment="center"
+        android:textColor="#0198DB"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_registrar2" />
+
+    <CheckBox
+        android:id="@+id/checbox1_registrar2"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Deseo permitir el uso de mis datos de  localización."
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar2"
+        app:layout_constraintTop_toBottomOf="@+id/campo1_registrar2" />
+
+    <CheckBox
+        android:id="@+id/checkbox2_registrar"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Deseo recibir avisos de búsqueda a mi  correo."
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar2"
+        app:layout_constraintTop_toBottomOf="@id/checbox1_registrar2" />
+
+    <CheckBox
+        android:id="@+id/checkbox3_registrar"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Estoy de acuerdo con los términos y  condiciones de Buscandog."
+        app:layout_constraintStart_toEndOf="@+id/flecha_registrar2"
+        app:layout_constraintTop_toBottomOf="@id/checkbox2_registrar" />
+
+    <TextView
+        android:id="@+id/texto3_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="¿Por qué necesitamos tu ubicación?"
+        android:textColor="#0198DB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox3_registrar" />
+
+    <Button
+        android:id="@+id/button_registrar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0397D9"
+        android:text="¡Vamos!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto3_registrar2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

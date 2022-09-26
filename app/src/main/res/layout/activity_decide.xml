@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DecideActivity">
+
+    <ImageView
+        android:id="@+id/fondo_decide"
+        android:layout_width="460dp"
+        android:layout_height="789dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/Background" />
+
+    <TextView
+        android:id="@+id/buscandog_decide"
+        android:layout_width="210dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:drawableTint="#225C6E"
+        android:fontFamily="cursive"
+        android:foregroundTint="#CA3838"
+        android:text="Buscandog"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#0198DB"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_decide"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/LogoKairen" />
+
+    <ImageView
+        android:id="@+id/perfil_decide"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Perfil" />
+
+    <ImageView
+        android:id="@+id/home_decide"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Home" />
+
+    <ImageView
+        android:id="@+id/accion_decide"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Accion" />
+
+    <ImageView
+        android:id="@+id/lupa_decide"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/Lupa" />
+
+    <TextView
+        android:id="@+id/texto1_decide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="¿Que deseas hacer?"
+        android:textColor="#0297DB"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buscandog_decide" />
+
+    <ImageView
+        android:id="@+id/buscar_decide"
+        android:layout_width="180dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1_decide"
+        app:srcCompat="@drawable/AccionBuscar" />
+
+    <ImageView
+        android:id="@+id/encontrar_decide"
+        android:layout_width="180dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1_decide"
+        app:srcCompat="@drawable/AccionEncontrar" />
+
+    <TextView
+        android:id="@+id/texto2_decide"
+        android:layout_width="180dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="56dp"
+        android:text="Busco a mi mascota"
+        android:textAlignment="center"
+        android:textColor="#393737"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/buscar_decide"
+        app:layout_constraintStart_toStartOf="@id/buscar_decide" />
+
+    <TextView
+        android:id="@+id/texto3_decide"
+        android:layout_width="180dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="56dp"
+        android:text="Encontre una mascota"
+        android:textAlignment="center"
+        android:textColor="#393737"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/encontrar_decide"
+        app:layout_constraintStart_toStartOf="@id/encontrar_decide" />
+
+    <Button
+        android:id="@+id/button_decide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0397D9"
+        android:text="Reportar un incidente"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buscar_decide" />
+</androidx.constraintlayout.widget.ConstraintLayout>
