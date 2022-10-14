@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "754492532478",
+    "project_id": "buscandogapp-8b61d",
+    "storage_bucket": "buscandogapp-8b61d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754492532478:android:9bf8047ddcf54d3a1be7af",
+        "android_client_info": {
+          "package_name": "com.example.kairen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754492532478-711ulnst6c8ha6d1u0g1hm6fhk5nhmmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5-CNjhxnqTPL3iIObkCEMgE8wRy1dRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754492532478-711ulnst6c8ha6d1u0g1hm6fhk5nhmmq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "754492532478-9eqfkipron29ojg7180eg3fs60l851v1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "TECMONTERREY.Buscandog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/Background" />
+        app:srcCompat="@drawable/background_azul" />
 
     <ImageView
         android:id="@+id/logo_inicio"
@@ -27,7 +27,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/LogoKairen" />
+        app:srcCompat="@drawable/logo_kairen" />
 
     <TextView
         android:id="@+id/buscandog_inicio"
@@ -76,7 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/by_jairen_inicio" />
+        app:layout_constraintTop_toBottomOf="@+id/by_jairen_inicio"
+        android:onClick="avanzarLogin"/>
 
     <TextView
         android:id="@+id/texto1_inicio"
@@ -96,12 +97,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
+        android:clickable="true"
         android:text="Registrarse"
         android:textColor="#0099DA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto1_inicio" />
+        app:layout_constraintTop_toBottomOf="@+id/texto1_inicio"
+        android:onClick="avanzarRegistro"/>
 
     <TextView
         android:id="@+id/texto3_inicio"
@@ -147,6 +150,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto2_inicio"
-        app:srcCompat="@drawable/linea" />
+        app:srcCompat="@drawable/linea_ui" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

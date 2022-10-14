@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/Background" />
+        app:srcCompat="@drawable/background_azul" />
 
     <ImageView
         android:id="@+id/flecha_registrar"
@@ -26,7 +26,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Flecha" />
+        app:srcCompat="@drawable/flecha_return" />
 
     <ImageView
         android:id="@+id/logo_registrar"
@@ -36,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/LogoKairen" />
+        app:srcCompat="@drawable/logo_kairen" />
 
     <TextView
         android:id="@+id/texto1_registrar"
@@ -172,11 +172,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:backgroundTint="#0397D9"
-        android:text="Iniciar sesion"
+        android:text="Continuar"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campo5_registrar" />
+        app:layout_constraintTop_toBottomOf="@+id/campo5_registrar"
+        android:onClick="avanzarNext" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

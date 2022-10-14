@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DecideActivity">
+    tools:context=".EncontrarActivity">
 
     <ImageView
-        android:id="@+id/fondo_decide"
+        android:id="@+id/fondo_encontrar"
         android:layout_width="460dp"
         android:layout_height="789dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,20 @@
         app:srcCompat="@drawable/background_azul" />
 
     <TextView
-        android:id="@+id/buscandog_decide"
+        android:id="@+id/texto1_registrar3"
+        android:layout_width="397dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:text="¡Encontre una mascota!"
+        android:textAlignment="center"
+        android:textColor="#0198DB"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buscandog_encontrar" />
+
+    <TextView
+        android:id="@+id/buscandog_encontrar"
         android:layout_width="210dp"
         android:layout_height="64dp"
         android:layout_marginTop="16dp"
@@ -37,7 +50,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/logo_decide"
+        android:id="@+id/logo_encontrar"
         android:layout_width="85dp"
         android:layout_height="85dp"
         android:layout_marginStart="16dp"
@@ -47,7 +60,7 @@
         app:srcCompat="@drawable/logo_kairen" />
 
     <ImageView
-        android:id="@+id/perfil_decide"
+        android:id="@+id/perfil_encontrar"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginTop="16dp"
@@ -57,7 +70,7 @@
         app:srcCompat="@drawable/perfil_general" />
 
     <ImageView
-        android:id="@+id/home_decide"
+        android:id="@+id/home_encontrar"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
@@ -67,7 +80,7 @@
         app:srcCompat="@drawable/home_menu" />
 
     <ImageView
-        android:id="@+id/accion_decide"
+        android:id="@+id/accion_encontrar"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginBottom="16dp"
@@ -77,7 +90,7 @@
         app:srcCompat="@drawable/accion_main" />
 
     <ImageView
-        android:id="@+id/lupa_decide"
+        android:id="@+id/lupa_encontrar"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginEnd="16dp"
@@ -86,74 +99,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/lupa_menu" />
 
-    <TextView
-        android:id="@+id/texto1_decide"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:text="¿Que deseas hacer?"
-        android:textColor="#0297DB"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buscandog_decide" />
-
-    <ImageView
-        android:id="@+id/buscar_decide"
-        android:layout_width="180dp"
-        android:layout_height="339dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto1_decide"
-        app:srcCompat="@drawable/accion_buscar" />
-
-    <ImageView
-        android:id="@+id/encontrar_decide"
-        android:layout_width="180dp"
-        android:layout_height="339dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto1_decide"
-        app:srcCompat="@drawable/accion_encontrar" />
-
-    <TextView
-        android:id="@+id/texto2_decide"
-        android:layout_width="180dp"
-        android:layout_height="82dp"
-        android:layout_marginBottom="56dp"
-        android:text="Busco a mi mascota"
-        android:textAlignment="center"
-        android:textColor="#393737"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/buscar_decide"
-        app:layout_constraintStart_toStartOf="@id/buscar_decide" />
-
-    <TextView
-        android:id="@+id/texto3_decide"
-        android:layout_width="180dp"
-        android:layout_height="82dp"
-        android:layout_marginBottom="56dp"
-        android:text="Encontre una mascota"
-        android:textAlignment="center"
-        android:textColor="#393737"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/encontrar_decide"
-        app:layout_constraintStart_toStartOf="@id/encontrar_decide" />
-
-    <Button
-        android:id="@+id/button_decide"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:backgroundTint="#0397D9"
-        android:text="Reportar un incidente"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buscar_decide" />
 </androidx.constraintlayout.widget.ConstraintLayout>

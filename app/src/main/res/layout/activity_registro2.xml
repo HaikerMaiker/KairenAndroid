@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/Background" />
+        app:srcCompat="@drawable/background_azul" />
 
     <TextView
         android:id="@+id/texto2_registrar2"
@@ -49,7 +49,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Flecha" />
+        app:srcCompat="@drawable/flecha_return" />
 
     <ImageView
         android:id="@+id/logo_registrar2"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/LogoKairen" />
+        app:srcCompat="@drawable/logo_kairen" />
 
     <TextView
         android:id="@+id/texto1_registrar2"
@@ -125,6 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/texto3_registrar2" />
+        app:layout_constraintTop_toBottomOf="@id/texto3_registrar2"
+        android:onClick="registrarDatos"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

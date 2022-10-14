@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/Background" />
+        app:srcCompat="@drawable/background_azul" />
 
     <Button
         android:id="@+id/button_login"
@@ -28,7 +28,8 @@
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkbox_login" />
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_login"
+        android:onClick="iniciarSesion"/>
 
     <TextView
         android:id="@+id/texto2_login"
@@ -86,7 +87,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/LogoKairen" />
+        app:srcCompat="@drawable/logo_kairen" />
 
     <ImageView
         android:id="@+id/flecha_login"
@@ -96,7 +97,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Flecha" />
+        app:srcCompat="@drawable/flecha_return" />
 
     <TextView
         android:id="@+id/texto1_login"
